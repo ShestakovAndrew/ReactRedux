@@ -1,2 +1,2 @@
-# ReactRedux
+# ReactReduxToolkit
 Изучение Redux Toolkit
