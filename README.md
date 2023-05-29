@@ -1,0 +1,2 @@
+# ReactRedux
+Изучение React Redux
