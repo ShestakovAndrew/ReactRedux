@@ -4,7 +4,9 @@ const iceCreamActions = require('./features/icecream/icecreamSlice').iceCreamAct
 
 console.log('Initial state', store.getState())
 
-const unsubscribe = store.subscribe(() => {})
+const unsubscribe = store.subscribe(() => {
+	console.log('Update state', store.getState())
+})
 
 store.dispatch(cakeActions.ordered())
 store.dispatch(cakeActions.ordered())
